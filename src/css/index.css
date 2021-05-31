@@ -1,0 +1,10 @@
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
