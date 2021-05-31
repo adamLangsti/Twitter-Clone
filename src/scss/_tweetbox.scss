@@ -1,0 +1,27 @@
+@import 'colors';
+
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid $twitter-background;
+  padding-right: 10px;
+  &-input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    input {
+      flex: 1;
+      margin-left: 20px;
+      font-size: 20px;
+      border: none;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    padding: 20px;
+    display: flex;
+  }
+}

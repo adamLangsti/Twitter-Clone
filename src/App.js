@@ -1,13 +1,14 @@
+import Feed from './components/Feed';
 import Sidebar from './components/Sidebar';
+import Widgets from './components/Widgets';
 import './css/index.css';
 
 const App = () => {
     return (
         <div className='app'>
-            {/* Sidebar*/}
             <Sidebar />
-            {/* Feed*/}
-            {/* Widgets*/}
+            <Feed />
+            <Widgets />
         </div>
     );
 };

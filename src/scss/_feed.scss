@@ -1,0 +1,23 @@
+@import 'colors';
+
+.feed {
+  flex: 0.4;
+  border-right: 1px solid $twitter-background;
+  min-width: fit-content;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 444;
+    border: 1px solid $twitter-background;
+    padding: 15px 20px;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
