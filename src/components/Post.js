@@ -33,7 +33,7 @@ const Post = forwardRef(
                             <p>{text}</p>
                         </div>
                     </div>
-                    <img src={image} alt='trump' />
+                    <img src={image} alt='' />
 
                     <div className='post-footer'>
                         <ChatBubbleOutlineIcon fontSize='small' />

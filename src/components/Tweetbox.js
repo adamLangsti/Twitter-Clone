@@ -10,8 +10,8 @@ const Tweetbox = () => {
         event.preventDefault();
 
         db.collection('posts').add({
-            displayName: 'Donald Trump',
-            username: '@realDonaldKing',
+            displayName: 'Test user',
+            username: '@testuser',
             verified: true,
             text: tweetMessage,
             image: tweetImage,
