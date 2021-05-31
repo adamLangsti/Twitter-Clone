@@ -85,6 +85,38 @@
   flex: 0.3;
 }
 
+.widgets-input {
+  display: flex;
+  align-items: center;
+  background-color: #e6ecf0;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets input {
+  border: none;
+  background-color: #e6ecf0;
+}
+
+.widgets-searchIcon {
+  color: #808080;
+}
+
+.widgets-widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8f1;
+  border-radius: 20px;
+}
+
+.widgets h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
 .tweetbox {
   padding-bottom: 10px;
   border-bottom: 8px solid #e6ecf0;
