@@ -1,0 +1,38 @@
+@import 'colors';
+
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid $twitter-background;
+  padding-bottom: 10px;
+  img {
+    border-radius: 20px;
+    width: 100%;
+  }
+  &-body {
+    flex: 1;
+    padding: 10px;
+  }
+  &-avatar {
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+  &-badge {
+    color: $twitter-color;
+    font-size: 14px !important;
+  }
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  &-headerDescription {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #808080;
+  }
+}
