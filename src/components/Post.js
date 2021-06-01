@@ -26,6 +26,7 @@ const Post = forwardRef(
                                         <VerifiedUserIcon className='post-badge' />
                                     )}
                                     {username}
+                                    <p>{timestamp.slice(0, 10)}</p>
                                 </span>
                             </h3>
                         </div>
