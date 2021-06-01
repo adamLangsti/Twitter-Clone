@@ -4,6 +4,7 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import RepeatIcon from '@material-ui/icons/Repeat';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
+import DeleteIcon from '@material-ui/icons/Delete';
 import React, { forwardRef } from 'react';
 
 const Post = forwardRef(
@@ -41,6 +42,10 @@ const Post = forwardRef(
                         <RepeatIcon fontSize='small' />
                         <FavoriteBorderIcon fontSize='small' />
                         <PublishIcon fontSize='small' />
+                        <DeleteIcon
+                            fontSize='small'
+                            className='post-deleteTweetBtn'
+                        />
                     </div>
                 </div>
             </div>

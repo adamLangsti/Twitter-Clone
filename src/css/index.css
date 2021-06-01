@@ -207,6 +207,16 @@
   font-size: 15px;
 }
 
+.post-deleteTweetBtn {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.post-deleteTweetBtn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .post span {
   font-weight: 600;
   font-size: 14px;

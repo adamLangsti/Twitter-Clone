@@ -31,6 +31,14 @@
     margin-bottom: 10px;
     font-size: 15px;
   }
+  &-deleteTweetBtn {
+    color: #ff0000;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
   span {
     font-weight: 600;
     font-size: 14px;
